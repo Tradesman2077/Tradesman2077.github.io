@@ -40,7 +40,8 @@
 }
 a:link {
     text-decoration: none;
-    color: mediumspringgreen;
+    color: rgb(69, 245, 69);
+    background-color: transparent;
   }
 .footer{
     font-family: 'Poppins', sans-serif;
