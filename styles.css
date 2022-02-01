@@ -76,7 +76,7 @@ iframe {
     resize: both;
     overflow: auto;
   }
-  iframe_two {
+.iframe_two{
     height: 400px;
     width: 800px;
     resize: both;
