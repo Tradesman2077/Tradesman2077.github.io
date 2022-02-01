@@ -69,3 +69,9 @@
 .text{
     margin: 5%;
 }
+iframe {
+    height: 300px;
+    width: 300px;
+    resize: both;
+    overflow: auto;
+  }
