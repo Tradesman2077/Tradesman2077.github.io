@@ -75,3 +75,9 @@ iframe {
     resize: both;
     overflow: auto;
   }
+  iframe_two {
+    height: 400px;
+    width: 800px;
+    resize: both;
+    overflow: auto;
+  }
