@@ -38,6 +38,10 @@
 
     
 }
+a:link {
+    text-decoration: none;
+    color: mediumspringgreen;
+  }
 .footer{
     font-family: 'Poppins', sans-serif;
 }
