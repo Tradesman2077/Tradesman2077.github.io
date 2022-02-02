@@ -75,14 +75,14 @@ a:link {
 
 }
 iframe {
-    height: 825px;
-    width: 825px;
+    height: 800px;
+    width: 800px;
     resize: both;
     overflow: auto;
   }
 .iframe_two{
-    height: 425px;
-    width: 825px;
+    height: 400px;
+    width: 800px;
     resize: both;
     overflow: auto;
   }
