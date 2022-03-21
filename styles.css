@@ -87,5 +87,5 @@ iframe {
     overflow: auto;
   }
   .body{
-      color: black;
+      color: black !important;
   }
