@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head><link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
 <body>
     <div class = "top">
@@ -11,6 +11,8 @@
 
     </div>
 
+    
+
     <div class = "content_description">
         <article class="description">
             <p> Welcome to my blog, here i will be showcasing some experiments in audio visual programming.
@@ -18,83 +20,93 @@
             
         </article>
     </div>
-
-    <div class = "content" style="width: 100%;;">
-
-        <article>
-            <h3>Exploring p5.js</h3>
-            <p class = "text">
-                In my first session i explored the javascript librar P5.js. thsi library is agreat for creating art or visualisations and is by the precessing foundation.
-                Heres an example below, utilising some of the built in functions for shapes. Get the code <a href="https://github.com/Tradesman2077/AVD_session1" style="color: rgb(0, 255, 0)">here</a>.
-            </p>
-            <iframe src="https://tradesman2077.github.io/AVD_session1/"  ></iframe>
-            
-            <aside class = "date">
-                <i>January 2022</i>
-            </aside>
-        </article>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <article>
+                    <h3>Exploring p5.js</h3>
+                    <p class = "text">
+                        In my first session i explored the javascript librar P5.js. thsi library is agreat for creating art or visualisations and is by the precessing foundation.
+                        Heres an example below, utilising some of the built in functions for shapes. Get the code <a href="https://github.com/Tradesman2077/AVD_session1" style="color: rgb(0, 255, 0)">here</a>.
+                    </p>
+                    <aside class = "date">
+                        <i>January 2022</i>
+                    </aside>
+                </article>
+            </div>
+            <div class="col-6">
+                <iframe src="https://tradesman2077.github.io/AVD_session1/"  ></iframe>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <article>
+                    <h3>Experimenting with p5.play</h3>
+                    <p class = "text">
+                        In my next session i began experimenting with p5.play, a library built on top of p5.js allowing for sprite manipulation and animation for creating games and small animations.
+                        Get the code <a href="https://github.com/Tradesman2077/AVP_session2" style="color: rgb(0, 255, 0)";>here</a>.
+                    </p>
+                    <aside class = "date">
+                        <i>January 2022</i>
+                    </aside>
+                </article>
+            </div>
+            <div class="col-6">
+                <iframe class="iframe_two" src="https://tradesman2077.github.io/AVP_session2/"  ></iframe>
+            </div>
+        </div>
     </div>
-
-    <div class = "content" style="width: 100%;;">
-
-        <article>
-            <h3>Experimenting with p5.play</h3>
-            <p class = "text">
-                In my next session i began experimenting with p5.play, a library built on top of p5.js allowing for sprite manipulation and animation for creating games and small animations.
-                Get the code <a href="https://github.com/Tradesman2077/AVP_session2" style="color: rgb(0, 255, 0)";>here</a>.
-            </p>
-            <iframe class="iframe_two" src="https://tradesman2077.github.io/AVP_session2/"  ></iframe>
-            
-            <aside class = "date">
-                <i>January 2022</i>
-            </aside>
-        </article>
-    </div>
-
-    <div class = "content" style="width: 100%;;">
-
-        <article>
-            <h3>Experimenting with image processing</h3>
-            <p class = "text">
-                P5.js has many features for image manipulation, It uses a one dimensional array for storing rgbA values for each pixels which can then be manipulated. Here i created a noise filter using random rgb values. The intensity of the fgilter is based on the mouse position.
-                Get the code <a href="https://github.com/Tradesman2077/AVP_session3" style="color: rgb(0, 255, 0)";>here</a>.
-            </p>
+    <div class="row">
+        <div class="col-6">
+            <article>
+                <h3>Experimenting with image processing</h3>
+                <p class = "text">
+                    P5.js has many features for image manipulation, It uses a one dimensional array for storing rgbA values for each pixels which can then be manipulated. Here i created a noise filter using random rgb values. The intensity of the fgilter is based on the mouse position.
+                    Get the code <a href="https://github.com/Tradesman2077/AVP_session3" style="color: rgb(0, 255, 0)";>here</a>.
+                </p>
+                <aside class = "date">
+                    <i>February 2022</i>
+                </aside>
+            </article>
+        </div>
+        <div class="col-6">
             <iframe class="iframe" src="https://tradesman2077.github.io/avp_pixels/"  ></iframe>
-            
-            <aside class = "date">
-                <i>February 2022</i>
-            </aside>
-        </article>
+        </div>
     </div>
-
-    <div class = "content" style="width: 100%;;">
-
-        <article>
-            <h3>Experimenting three.js</h3>
-            <p class = "text">
-                Game created i three.js.
-                Get the code <a href="https://github.com/Tradesman2077/AVP_session3">here</a>.
-            </p>
+    <div class="row">
+        <div class="col-6">
+            <article>
+                <h3>Experimenting three.js</h3>
+                <p class = "text">
+                    Game created i three.js.
+                    Get the code <a href="https://github.com/Tradesman2077/AVP_session3">here</a>.
+                </p>
+                <a href="https://tradesman2077.github.io/AVP_Session3/" style="color: rgb(0, 255, 0);">Play the game here ! </a>
+                <aside class = "date">
+                    <i>February 2022</i>
+                </aside>
+            </article>
+        </div>
+        <div class="col-6">
             <image src="pics/game.gif"></image>
-            <a href="https://tradesman2077.github.io/AVP_Session3/" style="color: rgb(0, 255, 0);">Play the game here ! </a>
-            <aside class = "date">
-                <i>February 2022</i>
-            </aside>
-        </article>
+        </div>
     </div>
-    <div class = "content" style="width: 100%;;">
-
-        <article>
-            <h3>Experimenting Tone.js</h3>
-            <p class = "text">
-                dynth drum created with Tone.js.
-                Get the code <a href="https://github.com/Tradesman2077/AVP_session3" style="color: rgb(0, 255, 0);">here</a>.
-            </p>
+    <div class="row">
+        <div class="col-6">
+            <article>
+                <h3>Experimenting Tone.js</h3>
+                <p class = "text">
+                    Synth drum created with Tone.js.
+                    Get the code <a href="https://github.com/Tradesman2077/AVP_session3" style="color: rgb(0, 255, 0);">here</a>.
+                </p>
+                <aside class = "date">
+                    <i>March 2022</i>
+                </aside>
+            </article>
+        </div>
+        <div class="col-6">
             <iframe class="iframe" src="https://syndrum-3a74b.web.app/" ></iframe>
-            <aside class = "date">
-                <i>March 2022</i>
-            </aside>
-        </article>
+        </div>
     </div>
 </body>
 <footer></footer>
