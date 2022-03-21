@@ -17,8 +17,8 @@
     
 }
 .content{
-    background-color: rgb(238, 238, 238);
-    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     display:inline-block;
     font-family: 'Poppins', sans-serif;
@@ -28,7 +28,7 @@
     
 }
 .content_description{
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     text-align: center;
     display:block;
@@ -46,7 +46,7 @@ a:link {
     font-family: 'Poppins', sans-serif;
 }
 .date{
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(0, 0, 0);
     float: inline-end;
 }
 .description{
