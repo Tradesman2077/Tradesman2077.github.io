@@ -75,14 +75,11 @@ iframe {
     overflow: auto;
   }
 .iframe_two{
-    height: 400px;
-    width: 800px;
+  
     overflow: auto;
   }
   .imgCont{
-    height: 800px;
-    width: 800px;
-    resize: both;
+
     overflow: auto;
   }
   .body{
