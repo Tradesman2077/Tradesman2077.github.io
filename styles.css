@@ -88,3 +88,7 @@ iframe {
   .body{
       color: black;
   }
+  .img2{
+    resize: both;
+    overflow: auto;
+  }
