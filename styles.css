@@ -89,8 +89,7 @@ iframe {
       color: black;
   }
   .img2{
-    height: 400px;
-    width: 800px;
-    resize: both;
-    overflow: auto;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
   }
