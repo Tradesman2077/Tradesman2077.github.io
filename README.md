@@ -1,2 +1,2 @@
 # christopherwrightdev.github.io
-mySite
+My audio visual portfolio site.
